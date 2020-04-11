@@ -18,7 +18,11 @@ font-family: 'Merienda', cursive;
 .overlay { 
    position: fixed; 
    overflow-y: scroll;
-    top: 100px; right: 0; bottom: 20px; left: 0;
+   top: 100px; 
+   right: 0; 
+   bottom: 0px;
+   padding-bottom: 30px; 
+   left: 0;
 }
 
 /*amir*/
@@ -51,7 +55,7 @@ font-family: 'Merienda', cursive;
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: #e67e22;
+    background-color: #c32865;
     border-radius: 100%;
     
     -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
@@ -86,7 +90,7 @@ font-family: 'Merienda', cursive;
 /* Start Back to Top*/
 #backtotop {
     display: inline-block;
-    background-color: #e67e22;
+    background-color: #c32865;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -171,7 +175,7 @@ nav.navbar {
     margin: 0;
 }
 .navbar-light .nav-item.active a.nav-link {
-    color: #e67e22;
+    color: #c32865;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -179,7 +183,7 @@ nav.navbar {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #e67e22;
+    color: #c32865;
 }
 nav.navbar.scroll{
     position: fixed;
@@ -558,7 +562,7 @@ button:focus {
 }
 
 .hire-me .btn-primary {
-    color: #e67e22;
+    color: #c32865;
     background-color: #fff;
     padding: 10px 30px;
     margin-top: 5px;    
@@ -570,7 +574,7 @@ button:focus {
 .hire-me .btn-primary:hover,
 .hire-me .btn-primary:active,
 .hire-me .btn-primary:focus {
-    background-color: #e67e22;
+    background-color: #c32865;
     color: #fff;
 }
 
@@ -752,7 +756,7 @@ button:focus {
 }
 
 .social-data .icons i:hover {
-    color: #e67e22;
+    color: #c32865;
 }
 
 /* End social */
@@ -824,5 +828,11 @@ footer p {
     font-size: 14px;    
     line-height: 25px;
 }
-
+/* #pp-nav{
+    display: none
+} */
+#pp-nav .active span{
+    background-color: #c32865 !important;
+    border: 5px solid #c32865 !important
+}
 /*End Framework*/
