@@ -81,6 +81,14 @@
         margin-bottom: 10px;
     }
 }
+
+
+/*Custom device - 582px*/
+@media(max-width:582px){
+    
+}
+
+
 /* Extra small devices - Phones - 480px */
 @media(max-width: 480px) {
     /* home */
