@@ -63,4 +63,15 @@ $(function () {
         $('nav .navbar-nav li').removeClass('active')
         $(ElementAction).addClass('active');
     }
+
+    var deleteLog = false;
+    
+    $('#pagepiling').pagepiling({
+        menu: '#nav_bar',            
+        anchors: ['home', 'about', 'service', 'portfolio', 'blog', 'contact'],
+        sectionsColor: ['', '#1b1b1b', '#1b1b1b', '#1b1b1b', '#1b1b1b', '#1b1b1b'],
+        loopTop: true,
+        loopBottom: true,
+        normalScrollElements: '.overlay'
+    });    
 });
