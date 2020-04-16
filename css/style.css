@@ -15,6 +15,7 @@ font-family: 'Merienda', cursive;
 }
 
 /*amir*/
+/*
 .overlay { 
    position: fixed; 
    overflow-y: scroll;
@@ -24,6 +25,7 @@ font-family: 'Merienda', cursive;
    padding-bottom: 30px; 
    left: 0;
 }
+*/
 
 /*amir*/
 
@@ -321,6 +323,39 @@ nav.navbar.scroll{
         transform: translateY(15px)
     }
 }
+
+
+.scroll {
+    width: 20px;
+    height: 550px;
+    overflow: auto;
+    float: right;
+}
+
+.style-4 {
+    height: 500px;
+    width: 77%;
+    margin: 50px auto;
+    line-height: 1.9;
+}
+
+.scroll4::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.scroll4::-webkit-scrollbar-thumb {
+    background: #c32865;
+    border-radius: 20px;
+}
+
+.scroll4::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+}
+
+
+
+
 
 /* End Home Page*/
 /* Start About Page*/
