@@ -14,8 +14,8 @@ body {
 font-family: 'Merienda', cursive;
 }
 
-/*amir*/
-/*
+
+
 .overlay { 
    position: fixed; 
    overflow-y: scroll;
@@ -25,11 +25,6 @@ font-family: 'Merienda', cursive;
    padding-bottom: 30px; 
    left: 0;
 }
-*/
-
-/*amir*/
-
-
 /* Start Loading */
 .loading-animation{
     width: 100%;
@@ -339,17 +334,17 @@ nav.navbar.scroll{
     line-height: 1.9;
 }
 
-.scroll4::-webkit-scrollbar {
-    width: 10px;
+.overlay::-webkit-scrollbar {
+    width: 8px;
 }
  
-.scroll4::-webkit-scrollbar-thumb {
-    background: #c32865;
+.overlay::-webkit-scrollbar-thumb {
+    background: rgb(27, 27, 27);
     border-radius: 20px;
 }
 
-.scroll4::-webkit-scrollbar-track {
-    background: #ddd;
+.overlay::-webkit-scrollbar-track {
+    background: rgba(27, 27, 27, 0.78);
     border-radius: 20px;
 }
 
